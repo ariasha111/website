@@ -1,0 +1,9 @@
+/* ИИ: Codex реорганизовал стили; запись №3 в README.md. */
+/* Minimal reset used by this project. */
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, p {
+  margin: 0;
+}

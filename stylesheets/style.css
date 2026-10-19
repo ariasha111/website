@@ -1,0 +1,250 @@
+/* ИИ: Codex реорганизовал стили; запись №3 в README.md. */
+html {
+  background-color: #fff;
+}
+
+body {
+  color: #050a1c;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: Bebas, 'Arial Narrow', sans-serif;
+  font-weight: 700;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-tagline {
+  font-family: Bebas, sans-serif;
+  font-size: max(18px, 2.6vw);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.hero-intro {
+  font-size: max(11px, 1.95vw);
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.selection {
+  background-color: #e9edff;
+  background-image: linear-gradient(#3055ff, #3055ff), linear-gradient(#3055ff, #3055ff);
+  background-size: .55vw 100%, .55vw 100%;
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+}
+
+.selection::before, .selection::after {
+  content: '';
+  border-radius: 50%;
+  background-color: #3055ff;
+}
+
+.selection-joins::before, .selection-joins::after {
+  content: '';
+  background-color: #3055ff;
+}
+
+h1 {
+  font-size: 34.4vw;
+  line-height: 1;
+  letter-spacing: -.65vw;
+}
+
+h2 {
+  font-size: 6.6vw;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+h2 span {
+  color: #3055ff;
+}
+
+.about-copy {
+  font-size: max(12px, 2vw);
+  line-height: 1.35;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.letter-composition {
+  color: #3055ff;
+  font-family: Bebas, sans-serif;
+}
+
+.letter-composition span {
+  font-size: 34.4vw;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.letter-b {
+  transform: rotate(-90deg);
+}
+
+.letter-e {
+  transform: rotate(23deg);
+}
+
+.letter-b2 {
+  transform: rotate(43deg);
+}
+
+.letter-a {
+  transform: rotate(13deg);
+}
+
+.letter-s {
+  transform: rotate(23deg);
+}
+
+.section-caption {
+  text-transform: uppercase;
+  font-size: max(11px, 2vw);
+  line-height: 1.25;
+  color: #000;
+}
+
+.weights h2 {
+  font-size: 7.7vw;
+  line-height: 1.03;
+}
+
+.weight-specimens {
+  text-align: center;
+  font-family: Bebas, sans-serif;
+}
+
+.weight-specimens p {
+  font-size: 3.6vw;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.weight-specimens span {
+  color: #3055ff;
+  font-size: 28vw;
+  line-height: 1;
+}
+
+.bold span {
+  font-weight: 700;
+}
+
+.regular span {
+  font-weight: 400;
+}
+
+.book span {
+  font-weight: 300;
+}
+
+.light span {
+  font-weight: 200;
+}
+
+.thin span {
+  font-weight: 100;
+}
+
+.percentage {
+  color: #3055ff;
+  font-family: Bebas, sans-serif;
+  font-size: max(60px, 9.1vw);
+  font-weight: 700;
+  line-height: 1;
+  background-image: repeating-linear-gradient(to right, #333 0, #333 1px, transparent 1px, transparent 3px);
+  background-size: 100% 1px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+.statistics h3 {
+  font-size: max(22px, 2.8vw);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.statistics article > p:last-child {
+  font-size: max(11px, 1.15vw);
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.alphabet-section h2 {
+  font-size: 7.7vw;
+}
+
+.alphabet {
+  font-family: Bebas, sans-serif;
+  font-size: 5.15vw;
+  font-weight: 700;
+  line-height: 1.42;
+  color: #000;
+}
+
+.numbers {
+  font-family: Bebas, sans-serif;
+  font-size: 5.15vw;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+}
+
+.history {
+  font-size: max(12px, 2vw);
+  line-height: 1.05;
+  text-align: center;
+  color: #000;
+}
+
+.footer-word {
+  font-family: Bebas, sans-serif;
+  font-size: 52.5vw;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -1.4vw;
+  color: #3055ff;
+}
+
+.footer-word span:nth-of-type(2) {
+  transform: rotate(-19deg) translate(-.2vw, 1.5vw);
+}
+
+.footer-word span:nth-of-type(3) {
+  transform: rotate(2deg);
+}
+
+.footer-word span:nth-of-type(5) {
+  transform: rotate(-18deg);
+}
+
+.footer-band {
+  background-color: #3055ff;
+}
+
+.footer-band::before {
+  content: '';
+  background-color: #3055ff;
+}
+
+.credits {
+  font-family: Bebas, sans-serif;
+  font-size: 2.55vw;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.visually-hidden {
+  opacity: 0;
+}
+
