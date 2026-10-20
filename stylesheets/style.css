@@ -1,4 +1,3 @@
-/* ИИ: Codex реорганизовал стили; запись №3 в README.md. */
 html {
   background-color: #fff;
 }
@@ -8,8 +7,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3 {
-  font-family: Bebas, 'Arial Narrow', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: Bebas, "Arial Narrow", sans-serif;
   font-weight: 700;
 }
 
@@ -33,27 +34,34 @@ h1, h2, h3 {
 
 .selection {
   background-color: #e9edff;
-  background-image: linear-gradient(#3055ff, #3055ff), linear-gradient(#3055ff, #3055ff);
-  background-size: .55vw 100%, .55vw 100%;
-  background-position: left top, right top;
+  background-image:
+    linear-gradient(#3055ff, #3055ff), linear-gradient(#3055ff, #3055ff);
+  background-size:
+    0.55vw 100%,
+    0.55vw 100%;
+  background-position:
+    left top,
+    right top;
   background-repeat: no-repeat;
 }
 
-.selection::before, .selection::after {
-  content: '';
+.selection::before,
+.selection::after {
+  content: "";
   border-radius: 50%;
   background-color: #3055ff;
 }
 
-.selection-joins::before, .selection-joins::after {
-  content: '';
+.selection-joins::before,
+.selection-joins::after {
+  content: "";
   background-color: #3055ff;
 }
 
 h1 {
   font-size: 34.4vw;
   line-height: 1;
-  letter-spacing: -.65vw;
+  letter-spacing: -0.65vw;
 }
 
 h2 {
@@ -159,7 +167,13 @@ h2 span {
   font-size: max(60px, 9.1vw);
   font-weight: 700;
   line-height: 1;
-  background-image: repeating-linear-gradient(to right, #333 0, #333 1px, transparent 1px, transparent 3px);
+  background-image: repeating-linear-gradient(
+    to right,
+    #333 0,
+    #333 1px,
+    transparent 1px,
+    transparent 3px
+  );
   background-size: 100% 1px;
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -215,7 +229,7 @@ h2 span {
 }
 
 .footer-word span:nth-of-type(2) {
-  transform: rotate(-19deg) translate(-.2vw, 1.5vw);
+  transform: rotate(-19deg) translate(-0.2vw, 1.5vw);
 }
 
 .footer-word span:nth-of-type(3) {
@@ -231,7 +245,7 @@ h2 span {
 }
 
 .footer-band::before {
-  content: '';
+  content: "";
   background-color: #3055ff;
 }
 
@@ -247,4 +261,3 @@ h2 span {
 .visually-hidden {
   opacity: 0;
 }
-
